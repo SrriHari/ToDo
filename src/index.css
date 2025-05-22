@@ -39,6 +39,19 @@ main{
     font-size: x-large;
 }
 
+.pattaya-regular {
+  font-family: "Pattaya", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.delius-regular {
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 input{
     outline: none;
     border-bottom: 2px solid rgb(146, 193, 215);

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { MdDelete } from "react-icons/md";
 import { FaRegEdit } from "react-icons/fa";
 import Footer from "./Footer.jsx";
-
+import Header from "./Header.jsx";
 export const Content = () => {
   let [items, setItems] = useState([]);
 
@@ -57,7 +57,8 @@ export const Content = () => {
   }
   return (
     <main>
-      <div className="container">
+      <Header></Header>
+      <div className="container delius-regular">
         <input
           type="text"
           value={inItem}

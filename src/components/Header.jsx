@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 export default function Header(props) {
-    console.log(props);
-    
-  return (
-    <header><h1>Header</h1></header>
-  )
+  console.log(props);
+
+  return <header className="pattaya-regular">To-Do List</header>;
 }
