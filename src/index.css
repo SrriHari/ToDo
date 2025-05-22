@@ -63,9 +63,11 @@ input{
     color: rgb(92, 163, 196);
     font-size: large;
     margin-bottom: 13px;
+    
 }
 
 .container{
+    /* flex-wrap: wrap; */
     background-color: whitesmoke;
     padding: 30px;
     border-radius: 10px;
@@ -100,4 +102,12 @@ button:hover{
 footer{
     font-size: medium;
     
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    max-width: 300px;
+  }
+
+
 }
