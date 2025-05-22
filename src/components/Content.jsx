@@ -41,6 +41,9 @@ export const Content = () => {
       setIsediting(false);
       return;
     }
+    if (inItem === "") {
+      return;
+    }
     setItems([
       ...items,
       { id: items.length + 1, label: inItem, Checked: false },
